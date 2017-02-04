@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\src\common\pa_allocation.c">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\pa_converters.c">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\pa_cpuload.c">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\pa_debugprint.c">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\pa_dither.c">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\pa_front.c">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\pa_process.c">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\pa_ringbuffer.c">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\pa_stream.c">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\pa_trace.c">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\hostapi\skeleton\pa_hostapi_skeleton.c">
+      <Filter>hostapi\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\os\win\pa_win_hostapis.c">
+      <Filter>os\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\os\win\pa_win_util.c">
+      <Filter>os\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\os\win\pa_win_waveformat.c">
+      <Filter>os\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\os\win\pa_win_wdmks_utils.c">
+      <Filter>os\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\os\win\pa_win_coinitialize.c">
+      <Filter>os\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\os\win\pa_x86_plain_converters.c">
+      <Filter>os\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\hostapi\wmme\pa_win_wmme.c">
+      <Filter>hostapi\wmme</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\hostapi\wdmks\pa_win_wdmks.c">
+      <Filter>hostapi\wdmks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\hostapi\dsound\pa_win_ds.c">
+      <Filter>hostapi\dsound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\hostapi\dsound\pa_win_ds_dynlink.c">
+      <Filter>hostapi\dsound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\hostapi\wasapi\pa_win_wasapi.c">
+      <Filter>hostapi\wasapi</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\os\win\pa_win_coinitialize.h">
+      <Filter>os\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\os\win\pa_win_wdmks_utils.h">
+      <Filter>os\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\os\win\pa_x86_plain_converters.h">
+      <Filter>os\win</Filter>
+    </ClInclude>
+    <ClInclude Include=".\options_cmake.h">
+      <Filter>cmake_generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\portaudio.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\pa_win_wmme.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\pa_win_wdmks.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\pa_allocation.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\pa_converters.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\pa_cpuload.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\pa_debugprint.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\pa_dither.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\pa_endianness.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\pa_hostapi.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\pa_memorybarrier.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\pa_process.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\pa_ringbuffer.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\pa_stream.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\pa_trace.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\pa_types.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\pa_util.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\hostapi\dsound\pa_win_ds_dynlink.h">
+      <Filter>hostapi\dsound</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="hostapi\skeleton">
+      <UniqueIdentifier>{50BE1843-A138-3FD4-B29A-006685F6A141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hostapi\wmme">
+      <UniqueIdentifier>{E70F0815-DADD-3E25-A494-881B55C1D7DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hostapi\wdmks">
+      <UniqueIdentifier>{38E7DEF0-E48E-38CD-B2F0-A2FA2376C279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{23C5533C-BB18-3F4E-9001-E119491DD77C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hostapi">
+      <UniqueIdentifier>{36154C7D-B279-3F28-BB23-7CC1B4E85546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="os">
+      <UniqueIdentifier>{07EC02C7-C84C-3F99-9635-74E2B27DF92C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cmake_generated">
+      <UniqueIdentifier>{423B024E-2A88-3D94-8BFA-8D5D4B38ABFE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{1D2B7477-F950-38CD-8766-EA079717410F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="os\win">
+      <UniqueIdentifier>{08B690C0-B87C-33ED-922D-367926B5BD8F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hostapi\dsound">
+      <UniqueIdentifier>{8007cb04-f097-4e8f-af61-f7f43d929992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hostapi\wasapi">
+      <UniqueIdentifier>{b0179ad2-3fb6-483a-a5f4-eac9cce716a9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
